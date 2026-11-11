@@ -4,7 +4,7 @@ import axios from "axios";
 
 // Em dev: o Vite redireciona /api para o back local (vite.config.js).
 // Em producao: a Vercel redireciona /api para a EC2 (vercel.json). Assim nao ha "mixed content" (HTTPS -> HTTP).
-const API_URL = "http://3.239.159.144/avaliacoes";
+const API_URL = "/api/avaliacoes";
 
 const PERM_ESCRITA = "write:avaliacoes";
 
